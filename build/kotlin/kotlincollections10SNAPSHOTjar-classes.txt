@@ -1,0 +1,1 @@
+/Users/dmitriymalayev/Code/kotlin/kotlin-collections/build/classes/kotlin/main/ListsKt.class:/Users/dmitriymalayev/Code/kotlin/kotlin-collections/build/classes/kotlin/main/MainKt.class
