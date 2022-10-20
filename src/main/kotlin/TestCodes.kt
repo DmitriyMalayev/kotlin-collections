@@ -12,5 +12,16 @@ fun main() {
         "nd2192" to 83.8,
     )
 
-    println(testScores.map { it.value }.sorted().take(3))
+    println(testScores.map { it.value }.sorted().take(3))   //only test scores without student ids
+    println(testScores.toList())
+    println(testScores.toList().sortedBy { it.second })  //sort by test score
+    println(testScores.toList().sortedBy { it.second }.map { it.first })  //map to student id
+    println(testScores.toList().sortedBy { it.second }.map { it.first }.take(3)) //take 3 lowest values
+    testScores.toList().sortedBy { it.second }.map { it.first }.take(3).forEach {
+        println(it)
+    }
 }
+//take 3 lowest values
+
+
+
